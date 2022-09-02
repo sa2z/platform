@@ -62,6 +62,7 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
     >
       <Box sx={{ px: 2.5, py: 3, display: 'inline-flex' }}>
         <Logo />
+        <h2 style={{marginLeft:5 ,padding:1, textAlign:"left", flex: 1.0, justifyContent: 'center', alignItems:"center"}} variant="h3">Factory-AI</h2>
       </Box>
 
       <Box sx={{ mb: 5, mx: 2.5 }}>
