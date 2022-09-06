@@ -1,4 +1,5 @@
 // component
+import { GiCube } from "react-icons/gi";
 import Iconify from '../../components/Iconify';
 
 // ----------------------------------------------------------------------
@@ -13,7 +14,7 @@ const navConfig = [
   },
   {
     title: '프로젝트',
-    path: '/dashboard/user',
+    path: '/dashboard/project',
     icon: getIcon('eva:clipboard-fill'), // cube
   },
   {
@@ -24,23 +25,28 @@ const navConfig = [
   {
     title: '모델개발',
     path: '/dashboard/blog',
-    icon: getIcon('eva:file-text-fill'),
+    icon: <GiCube size="20" />, // getIcon('eva:file-text-fill'),
   },
-  {
-    title: 'login',
-    path: '/login',
-    icon: getIcon('eva:lock-fill'),
-  },
-  {
-    title: 'register',
-    path: '/register',
-    icon: getIcon('eva:person-add-fill'),
-  },
-  {
-    title: 'Not found',
-    path: '/404',
-    icon: getIcon('eva:alert-triangle-fill'),
-  },
+  // {
+  //   title: 'user',
+  //   path: '/dashboard/user',
+  //   icon: getIcon('eva:people-fill'),
+  // },
+  // {
+  //   title: 'login',
+  //   path: '/login',
+  //   icon: getIcon('eva:lock-fill'),
+  // },
+  // {
+  //   title: 'register',
+  //   path: '/register',
+  //   icon: getIcon('eva:person-add-fill'),
+  // },
+  // {
+  //   title: 'Not found',
+  //   path: '/404',
+  //   icon: getIcon('eva:alert-triangle-fill'),
+  // },
 ];
 
 export default navConfig;
